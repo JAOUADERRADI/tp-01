@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <div>
+                <form id="greetingForm">
+                    <div>
+                        <label for="#">Votre message</label>
+                        <textarea name="message" id="message" cols="40" rows="5" required></textarea>
+                    </div>
+                    <div class="formContainer">
+                        <div>
+                            <label for="fontSize">Taille de la Police:</label>
+                            <input type="number" id="fontSize" min="10" max="30" value="16"><br>
+                        </div>
+                        <div>
+                            <label for="textColor">Couleur du Texte:</label>
+                            <input type="color" id="textColor" value="#000000"><br>
+                        </div>
+                    </div>
+                    <div class="formContainer">
+                        <div>
+                            <label for="bgColor">Couleur de fond:</label>
+                            <input type="color" id="bgColor" value="#000000"><br>
+                        </div>
+                        <div>
+                            <label for="imageUrl">URL de fond:</label>
+                            <input type="url" id="imageUrl" required><br>
+                        </div>
+                    </div>
+                    
+                    <button type="submit">Appliquer les réglages</button>
+                </form>
+            </div>
+            <div id="greetingCard">
+                <span>votre message ici</span>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+</form>
